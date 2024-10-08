@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Tropi Land';
+    src: url('TropiLandRegular.eot');
+    src: url('TropiLandRegular.eot?#iefix') format('embedded-opentype'),
+        url('TropiLandRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
