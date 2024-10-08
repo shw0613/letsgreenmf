@@ -1,14 +1,14 @@
 // 탑 고정
 $('#top').hide();
 
-// $(window).scroll(function () {
-//   var height = $(window).scrollTop();
-//   if (height > 122) {
-//     $('#top').fadeIn();
-//   } else {
-//     $('#top').fadeOut();
-//   }
-// });
+$(window).scroll(function () {
+var height = $(window).scrollTop();
+if (height > 122) {
+$('#top').fadeIn();
+} else {
+$('#top').fadeOut();
+}
+});
 
 // 업버튼
 $('#up_btn_box').hide();
